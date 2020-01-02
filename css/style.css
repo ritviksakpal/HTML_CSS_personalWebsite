@@ -1,4 +1,5 @@
 * {
+    color: #40514e;
     margin-bottom: 0;
 }
 
@@ -102,7 +103,7 @@ hr {
 
 .btn {
     padding: 10px 10px;
-    color: white;
+    color: #eaf6f6;
     text-decoration: none;
     background-color: #916dd5;
     border-radius: 5px;
@@ -114,14 +115,20 @@ hr {
     padding-top: 50px;
 }
 
-.bottom-container a {
+a {
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #3e206d;
     margin: 30px;
 }
 
+a :hover {
+    color: #eaf6f6;
+}
+
 .bottom-container p {
     margin-top: 50px;
-    color: white;
+    font-size: 0.75em;
+    color: #eaf6f6;
     padding-bottom: 25px;
 }
